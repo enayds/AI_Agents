@@ -4,13 +4,24 @@ This Python code demonstrates the implementation of an agent workflow for genera
 
 ## Getting Started
 
-To run this code, ensure that you have the necessary libraries installed. You can install them using the following command:
+### Prerequisites
+
+1. **Download the Ollama Model:**
+    - If you wish to run the code locally, download the Ollama model by following the instructions on the [Ollama GitHub repository](https://github.com/ollama/ollama) or click on this [link]((https://ollama.ai/download)) to download.
+    - Place the downloaded model in a directory accessible by your Python environment.
+
+2. **Download Specific Ollama Model:**
+    - Replace the `ollama.Ollama(model='mistral')` line in the code with the appropriate Ollama model from the model catalog if you wish to use a different model.
+
+### Installation
+
+You can quickly install the required libraries by running the following command:
 
 ```bash
-pip install crewai langchain_community
+pip install -r requirements.txt
 ```
 
-Make sure to replace the `ollama.Ollama(model='mistral')` line with the appropriate Ollama model from the model catalog if you wish to use a different model.
+Make sure to replace `<version>` in the `requirements.txt` file with the actual version numbers you want to use or install the latest versions.
 
 ## Agents
 
@@ -56,10 +67,10 @@ Make sure to replace the `ollama.Ollama(model='mistral')` line with the appropri
 
 To execute the agent workflow, run the script and observe the output. The result will provide insights into the collaborative process of the agents and the successful execution of the assigned tasks.
 
-```python
+```bash
 python ai_agents.py
 ```
 
 The script will print the result of the agent workflow.
 
-**Note**: Ensure that you have the necessary permissions to access the chosen Ollama model and any other dependencies.
+**Note**: Ensure that you have downloaded the Ollama model and any other dependencies as mentioned in the prerequisites.
