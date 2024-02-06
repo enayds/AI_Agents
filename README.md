@@ -7,7 +7,7 @@ This Python code demonstrates the implementation of an agent workflow for genera
 ### Prerequisites
 
 1. **Download the Ollama Model:**
-    - If you wish to run the code locally, download the Ollama model by following the instructions on the [Ollama GitHub repository](https://github.com/ollama/ollama) or click on this [link]((https://ollama.ai/download)) to download.
+    - If you wish to run the code locally, download the Ollama model by following the instructions on the [Ollama GitHub repository](https://github.com/ollama/ollama) or click on this [link](https://ollama.ai/download) to download.
     - Place the downloaded model in a directory accessible by your Python environment.
 
 2. **Download Specific Ollama Model:**
@@ -21,7 +21,6 @@ You can quickly install the required libraries by running the following command:
 pip install -r requirements.txt
 ```
 
-Make sure to replace `<version>` in the `requirements.txt` file with the actual version numbers you want to use or install the latest versions.
 
 ## Agents
 
